@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<data>
+	<settings>
+		<hostname>sample.host</hostname>
+		<sender>no-reply@company.com</sender>
+		<receivers>user@company.com</receivers>
+		<smtp_host>smtp.company.com</smtp_host>
+		<df_command>df -h |egrep 'lv_log_lv' |awk '{print $5"\t"$6}'</df_command>
+		<volume_path>/<threshold>50</threshold></volume_path>
+		<volume_path>/lv<threshold>50</threshold></volume_path>
+		<volume_path>/usr/lv/log<threshold>50</threshold></volume_path>
+	</settings>
+</data>
